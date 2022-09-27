@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>fiskalisa</title>
+</head>
+<body>
+
+	<h1>Border</h1>
+
+<style type="text/css">
+	.box1{
+		border-top-width: 2px;
+		border-right-width: 3px;
+		border-left-width: 1px;
+		border-bottom-width: 4px;
+		/*border-width: 2px 3px 4px 1px;*/
+		/*untuk dapat melihat, hilangkan komen dibawah ini*/
+		/*border-style: solid;*/
+	}
+</style>
+
+<div class="box1">test</div>
+
+<h1>Border Style</h1>
+
+<style type="text/css">
+	.box2{
+		border-width: 3px;
+		/*untuk melihat yang lain, dipersilahkan untuk uncomment*/
+		border-style: solid;
+		/*border-style: dotted;*/
+		/*border-style: dashed;*/
+		/*border-style: double;*/
+		/*border-style: groove;*/
+		/*border-style: hidden;*/
+	}
+</style>
+
+<div class="box2">test1</div>
+
+<h1>Border Color</h1>
+
+<style type="text/css">
+	.box3{
+		border-style: solid;
+		border-color: rgb(222, 32, 32);
+		/*border-color: #DE2020;*/
+		/*border-color: skyblue;*/
+	}
+</style>
+
+<div class="box3">test2</div>
+
+<h1>Padding</h1>
+
+<style type="text/css">
+	p{
+		border: 4px solid;
+		width: 500px;
+	}
+
+	p.teks1{
+		padding: 20px;
+	}
+</style>
+
+<p>test1</p>
+<p class="teks1">test2</p>
+
+<style type="text/css">
+	p.teks2{
+		padding-top: 10px;
+		padding-right: 15px;
+		padding-bottom: 20px;
+		padding-left: 25px;
+		/*padding: 10px 15px 20px 25px;*/
+	}
+</style>
+
+<p class="teks2">test 1</p>
+
+<h1>Margin</h1>
+
+<style type="text/css">
+	.margin1{
+
+		margin-top: 20px;
+		margin-right: 25px;
+		margin-bottom: 20px;
+		margin-left: 25px;
+		/*margin: 20px 25px 20px;*/
+	}
+</style>
+
+<div>test1</div>
+<div>test2</div>
+<div class="margin1">test3</div>
+<div class="margin1">test4</div>
+
+<h1>Centering Content</h1>
+
+<style type="text/css">
+	.center{
+		margin: 0 auto;
+	}
+
+	.box4{
+		width: 50%;
+		border: 10px solid skyblue;
+		padding: 20px;
+		margin-bottom: 20px;
+	}
+</style>
+
+<div class="box4">test 1</div>
+<div class="center box4">test</div>
+</body>
+</html>
